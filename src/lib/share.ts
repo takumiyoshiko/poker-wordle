@@ -46,12 +46,12 @@ export const shareStatusDialog = (
 export const generateEmojiGrid = (guesses: string[]) => {
   return guesses
     .map((guess) => {
-      return toCardsEmoji(guess) + toHighLowEmoji(guess)
+      return toGuessStatusesEmoji(guess) + toHighLowEmoji(guess)
     })
     .join('\n')
 }
 
-function toCardsEmoji(guess: string): string {
+function toGuessStatusesEmoji(guess: string): string {
   const status = getGuessStatuses(guess)
   return graphemeSplitter
     .splitGraphemes(guess)
