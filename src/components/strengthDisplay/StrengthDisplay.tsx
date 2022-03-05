@@ -1,4 +1,5 @@
 import { HandStatus } from '../../lib/statuses'
+import balance from './balance.svg'
 
 type Props = {
   strength: HandStatus
@@ -8,16 +9,23 @@ export const StrengthDisplay = ({ strength }: Props) => {
   const display = (() => {
     switch (strength) {
       case 'high': {
-        return 'HIGH'
+        return 'TOO HIGH'
       }
       case 'low': {
-        return 'LOW'
+        return 'TOO LOW'
       }
       case 'hit': {
         return 'HIT'
       }
       case 'waiting': {
-        return '?'
+        return (
+          <img
+            src={balance}
+            alt="balance.svg"
+            width="70%"
+            style={{ display: 'inline' }}
+          />
+        )
       }
       default: {
         return ''
@@ -25,8 +33,11 @@ export const StrengthDisplay = ({ strength }: Props) => {
     }
   })()
   return (
-    <span className="text-black" style={{ fontSize: '70%' }}>
+    <div
+      className="text-black text-center text-sm"
+      style={{ lineHeight: '1.1em' }}
+    >
       {display}
-    </span>
+    </div>
   )
 }
