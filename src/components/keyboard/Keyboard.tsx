@@ -26,7 +26,7 @@ export const Keyboard = ({
 
   //choose the screen size
   const handleResize = () => {
-    if (window.innerWidth < 720) {
+    if (window.innerWidth < 840) {
       setIsMobile(true)
     } else {
       setIsMobile(false)
