@@ -22,7 +22,7 @@ export const StrengthDisplay = ({ strength }: Props) => {
           <img
             src={balance}
             alt="balance.svg"
-            width="70%"
+            width="60%"
             style={{ display: 'inline' }}
           />
         )
