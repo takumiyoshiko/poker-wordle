@@ -59,9 +59,7 @@ export const Cell = ({
           <CardDisplay card={value} />
         ) : (
           <StrengthDisplay
-            strength={
-              isFilled || isRevealing ? 'waiting' : (status as HandStatus)
-            }
+            strength={isRevealing ? 'waiting' : (status as HandStatus)}
           />
         )}
       </div>

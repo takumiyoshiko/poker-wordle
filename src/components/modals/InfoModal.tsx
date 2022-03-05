@@ -65,9 +65,9 @@ export const InfoModal = ({
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="high" target="strength" />
-        <Cell value="low" target="strength" />
-        <Cell value="hit" target="strength" />
+        <Cell status="high" target="strength" />
+        <Cell status="low" target="strength" />
+        <Cell status="hit" target="strength" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         The card TOO HIGH means that your guess is higher than the hand to
