@@ -70,9 +70,9 @@ export const InfoModal = ({
         <Cell value="hit" target="strength" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The card TOO HIGH means that your guess is higher than the hand to guess.
-        The card TOO LOW means the opposite. The card HIT means that your guess and
-        the hand to guess have the same strength.
+        The card TOO HIGH means that your guess is higher than the hand to
+        guess. The card TOO LOW means the opposite. The card HIT means that your
+        guess and the hand to guess have the same strength.
       </p>
     </BaseModal>
   )
