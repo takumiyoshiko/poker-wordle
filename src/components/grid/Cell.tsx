@@ -46,6 +46,8 @@ export const Cell = ({
         target === 'strength' && status === 'low',
       'hit bg-lime-400 text-white text-white border-lime-500 dark:bg-lime-400 dark:border-lime-500':
         target === 'strength' && status === 'hit',
+      'waiting border-black dark:bg-neutral-300 dark:border-neutral-300':
+        target === 'strength' && status === 'waiting',
       'cell-fill-animation': isFilled,
       'cell-reveal': shouldReveal,
     }
