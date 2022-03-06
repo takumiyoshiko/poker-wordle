@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/poker-wordle/static/css/main.e184c148.css",
-    "main.js": "/poker-wordle/static/js/main.9a8a90da.js",
+    "main.css": "/poker-wordle/static/css/main.dc9b9e4f.css",
+    "main.js": "/poker-wordle/static/js/main.bad533cd.js",
     "static/js/787.b3f9d252.chunk.js": "/poker-wordle/static/js/787.b3f9d252.chunk.js",
+    "static/media/balance.svg": "/poker-wordle/static/media/balance.5c0638d82208f39d96db491c5dc2892b.svg",
     "index.html": "/poker-wordle/index.html",
-    "main.e184c148.css.map": "/poker-wordle/static/css/main.e184c148.css.map",
-    "main.9a8a90da.js.map": "/poker-wordle/static/js/main.9a8a90da.js.map",
+    "main.dc9b9e4f.css.map": "/poker-wordle/static/css/main.dc9b9e4f.css.map",
+    "main.bad533cd.js.map": "/poker-wordle/static/js/main.bad533cd.js.map",
     "787.b3f9d252.chunk.js.map": "/poker-wordle/static/js/787.b3f9d252.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e184c148.css",
-    "static/js/main.9a8a90da.js"
+    "static/css/main.dc9b9e4f.css",
+    "static/js/main.bad533cd.js"
   ]
 }
