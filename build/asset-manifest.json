@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/poker-wordle/static/css/main.dc9b9e4f.css",
-    "main.js": "/poker-wordle/static/js/main.bad533cd.js",
-    "static/js/787.b3f9d252.chunk.js": "/poker-wordle/static/js/787.b3f9d252.chunk.js",
-    "static/media/balance.svg": "/poker-wordle/static/media/balance.5c0638d82208f39d96db491c5dc2892b.svg",
-    "index.html": "/poker-wordle/index.html",
-    "main.dc9b9e4f.css.map": "/poker-wordle/static/css/main.dc9b9e4f.css.map",
-    "main.bad533cd.js.map": "/poker-wordle/static/js/main.bad533cd.js.map",
-    "787.b3f9d252.chunk.js.map": "/poker-wordle/static/js/787.b3f9d252.chunk.js.map"
+    "main.css": "./static/css/main.dc9b9e4f.css",
+    "main.js": "./static/js/main.12640861.js",
+    "static/js/787.b3f9d252.chunk.js": "./static/js/787.b3f9d252.chunk.js",
+    "static/media/balance.svg": "./static/media/balance.5c0638d82208f39d96db491c5dc2892b.svg",
+    "index.html": "./index.html",
+    "main.dc9b9e4f.css.map": "./static/css/main.dc9b9e4f.css.map",
+    "main.12640861.js.map": "./static/js/main.12640861.js.map",
+    "787.b3f9d252.chunk.js.map": "./static/js/787.b3f9d252.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dc9b9e4f.css",
-    "static/js/main.bad533cd.js"
+    "static/js/main.12640861.js"
   ]
 }
