@@ -30,7 +30,7 @@ export const shareStatusDialog = (
           `${GAME_TITLE} ${solutionIndex} ${lost ? 'X' : guesses.length}/6${
             isHardMode ? '*' : ''
           }\n\n` + generateEmojiGrid(guesses),
-        url: 'https://kikychow.github.io/poker-wordle/',
+        url: 'https://poker-handle2.com/',
       })
       .then(() => console.log('Successful share'))
       .catch((error) => console.log('Error sharing', error))
