@@ -16,12 +16,13 @@ export const InfoModal = ({
     <BaseModal title="How to play" isOpen={isOpen} handleClose={handleClose}>
       <p className="text-sm text-gray-500 dark:text-gray-300">
         Guess the poker hand in 6 tries. After each guess, the color of the
-        tiles will change to show how close your guess was to the hand.
+        tiles will change to show how close your guess was to the actual hand.
       </p>
 
       <p className="text-sm text-red-500 mt-2 mb-5">
         The hand is sorted by rankings from highest to lowest (A♠, A♥, A♣, A♦,
-        K♠, K♥, ..., 2♦) and in order of quads, triples, pairs and singles.
+        K♠, K♥, ..., 2♦) and follows the order of quads, triples, pairs and
+        singles.
         <br />
         <span
           className="text-xs text-red-500 hover:text-red-600 hover:cursor-pointer underline font-bold"
@@ -61,7 +62,7 @@ export const InfoModal = ({
         <Cell value="🂲" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The card 5♦ has incorrect rank and suit.
+        The card 5♦ has an incorrect rank and suit.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -70,9 +71,9 @@ export const InfoModal = ({
         <Cell status="hit" target="strength" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The card TOO HIGH means that your guess is higher than the hand to
-        guess. The card TOO LOW means the opposite. The card HIT means that your
-        guess and the hand to guess have the same strength.
+        The card TOO HIGH means that your guess is higher than the actural hand.
+        The card TOO LOW means the opposite. The card HIT means that your guess
+        and the actual hand are of equal rank.
       </p>
     </BaseModal>
   )
