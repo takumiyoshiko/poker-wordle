@@ -39,7 +39,7 @@ export const InfoModal = ({
         <Cell value="🃚" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The card A♠ is correct in both rank and suit.
+        The card A♠ has the correct rank and suit.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -50,7 +50,7 @@ export const InfoModal = ({
         <Cell value="🂾" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The card Q♦ is correct in either rank or suit.
+        The card Q♦ has the correct rank or suit.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
@@ -61,18 +61,18 @@ export const InfoModal = ({
         <Cell value="🂲" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The card 5♦ is incorrect in both rank and suit.
+        The card 5♦ has incorrect rank and suit.
       </p>
 
       <div className="flex justify-center mb-1 mt-4">
-        <Cell value="high" target="strength" />
-        <Cell value="low" target="strength" />
-        <Cell value="hit" target="strength" />
+        <Cell status="high" target="strength" />
+        <Cell status="low" target="strength" />
+        <Cell status="hit" target="strength" />
       </div>
       <p className="text-sm text-gray-500 dark:text-gray-300">
-        The card HIGH means that your guess is higher than the hand to guess.
-        The card LOW means the opposite. The card HIT means that your guess and
-        the hand to guess have the same strength.
+        The card TOO HIGH means that your guess is higher than the hand to
+        guess. The card TOO LOW means the opposite. The card HIT means that your
+        guess and the hand to guess have the same strength.
       </p>
     </BaseModal>
   )

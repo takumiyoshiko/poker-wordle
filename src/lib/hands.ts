@@ -135,7 +135,8 @@ export const getHandOfDay = () => {
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
   const nextday = (index + 1) * msInDay + epochMs
-  const hand = HANDS[index % HANDS.length]
+  // avoid using the same hand as the original Poker Handle
+  const hand = HANDS[(index * 2) % HANDS.length]
 
   return {
     solution: convertHandToUnicode(hand),

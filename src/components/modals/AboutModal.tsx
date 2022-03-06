@@ -18,7 +18,7 @@ export const AboutModal = ({ isOpen, handleClose }: Props) => {
         </a>{' '}
         -{' '}
         <a
-          href="https://github.com/kikychow/poker-wordle"
+          href="https://github.com/takumiyoshiko/poker-wordle"
           className="underline font-bold text-slate-400 hover:text-slate-500"
         >
           check out the code here
