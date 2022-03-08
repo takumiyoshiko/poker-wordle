@@ -24,7 +24,7 @@ jobs:
 
       - name: Build the project
         env:
-          REACT_APP_GOOGLE_MEASUREMENT_ID: foo # ${{ secrets.REACT_APP_GOOGLE_MEASUREMENT_ID }}
+          REACT_APP_GOOGLE_MEASUREMENT_ID: ${{ secrets.REACT_APP_GOOGLE_MEASUREMENT_ID }}
         run: npm run build
 
       - name: Deploy
