@@ -19,16 +19,13 @@ jobs:
         with:
           node-version: '14'
 
-      - name: Update .env
-        env:
-          REACT_APP_GOOGLE_MEASUREMENT_ID: ${{ secrets.REACT_APP_GOOGLE_MEASUREMENT_ID }}
-        run: echo "REACT_APP_GOOGLE_MEASUREMENT_ID=${REACT_APP_GOOGLE_MEASUREMENT_ID}" >> .env
-
       - name: Install dependencies
         run: npm install
 
       - name: Build the project
-        run: npm run build
+        env:
+          REACT_APP_GOOGLE_MEASUREMENT_ID: ${{ secrets.REACT_APP_GOOGLE_MEASUREMENT_ID }}
+        run: env REACT_APP_GOOGLE_MEASUREMENT_ID=${REACT_APP_GOOGLE_MEASUREMENT_ID} npm run build
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
