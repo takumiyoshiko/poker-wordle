@@ -130,13 +130,13 @@ export const convertHandToDisplay = (hand: string) => {
 
 export const getHandOfDay = () => {
   // February 10, 2022 Game Epoch
-  const epochMs = new Date('February 10, 2022 00:00:00').valueOf()
+  const epochMs = new Date('March 8, 2022 00:00:00').valueOf()
   const now = Date.now()
   const msInDay = 86400000
   const index = Math.floor((now - epochMs) / msInDay)
   const nextday = (index + 1) * msInDay + epochMs
   // avoid using the same hand as the original Poker Handle
-  const hand = HANDS[(index * 2) % HANDS.length]
+  const hand = HANDS[(index * 3) % HANDS.length]
 
   return {
     solution: convertHandToUnicode(hand),
