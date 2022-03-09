@@ -29,7 +29,7 @@ export const shareStatusDialog = (
         text:
           `${GAME_TITLE} ${solutionIndex} ${lost ? 'X' : guesses.length}/6${
             isHardMode ? '*' : ''
-          }\n\n` + generateEmojiGrid(guesses),
+          }\n\n` + generateEmojiGrid(guesses) + '\n\n',
         url: 'https://poker-handle2.com/',
       })
       .then(() => console.log('Successful share'))
