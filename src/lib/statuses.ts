@@ -116,7 +116,6 @@ export const getStatuses = (
     }
   })
 
-  console.log(charObj)
   return charObj
 }
 
