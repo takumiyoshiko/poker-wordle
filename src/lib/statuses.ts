@@ -145,7 +145,6 @@ export const getGuessStatuses = (guess: string): CardStatus[] => {
     }
     return
   })
-  console.log(statuses)
   return statuses
 }
 
