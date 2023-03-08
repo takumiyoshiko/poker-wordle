@@ -1,7 +1,7 @@
 # ♠ Poker Handle 2
 Poker Handle 2 is a poker hand guessing game, inspired by [Poker Handle](https://kikychow.github.io/poker-wordle/).
 
-[**Play the game here!**](http://poker-handle2.com/)
+[**Play the game here!**](https://poker-handle2.vercel.app/)
 
 ## Build and run
 
